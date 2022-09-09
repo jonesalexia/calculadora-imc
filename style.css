@@ -1,0 +1,99 @@
+:root {
+    --background-color: #050303; 
+    --darker-color: #a39494;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #050303;
+}
+
+.container {
+    background: #f8eeee;
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    box-shadow: rgba(2, 2, 2, 0.5) 0px 5px 15px;
+    
+}
+
+.table1 {
+    display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+
+}
+
+.table2 {
+    display: block;
+	float:left;
+	margin: 1% 25% 1% 20%;
+
+}
+
+.result-paragraph {
+    color: #0abb36;
+    padding: 10px;
+}
+
+.wrong {
+    color: #da2323;
+    padding: 10px;
+}
+
+
+h3, p {
+    color: #050303;
+    
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+form input {
+    font-size: 18px;
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 10px;
+    color: #7a7a7a;
+}
+
+form input:focus {
+    outline: var(--background-color) solid 1px;
+}
+
+form button {
+    border: none;
+    background: var(--background-color);
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+}
+
+form button:hover {
+
+    background: var(--darker-color);
+}
+
